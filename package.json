@@ -1,8 +1,11 @@
 {
-  "name": "atlas-hello-snap",
+  "name": "atlas-hello",
   "version": "1.0.0",
-  "description": "create a snap in Node.js.",
+  "description": "Hello world Node.js app.",
   "main": "atlas-hello.js",
+  "bin": {
+    "atlas-hello": "atlas-hello.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
