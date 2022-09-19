@@ -6,7 +6,7 @@ description: |
     $ atlas-hello
 
 confinement: strict
-base: core22
+base: core20
 
 apps:
   atlas-hello:
@@ -15,5 +15,5 @@ apps:
 parts:
   atlas-hello:
     plugin: npm
-    npm-node-version: 16.17.0
+    npm-node-version: 14.16.1
     source: .
