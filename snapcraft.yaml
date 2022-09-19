@@ -1,0 +1,19 @@
+name: atlas-hello
+version: git
+summary: hello world snap package.
+description: |
+  Say hello:-
+    $ atlas-hello
+
+confinement: strict
+base: core22
+
+apps:
+  atlas-hello:
+    command: bin/atlas-hello
+
+parts:
+  atlas-hello:
+    plugin: npm
+    npm-node-version: 16.17.0
+    source: .
