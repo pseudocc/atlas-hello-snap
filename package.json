@@ -1,0 +1,23 @@
+{
+  "name": "atlas-hello-snap",
+  "version": "1.0.0",
+  "description": "create a snap in Node.js.",
+  "main": "atlas-hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pseudocc/atlas-hello-snap.git"
+  },
+  "keywords": [
+    "snap",
+    "helllo-world"
+  ],
+  "author": "Atlas Yu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pseudocc/atlas-hello-snap/issues"
+  },
+  "homepage": "https://github.com/pseudocc/atlas-hello-snap#readme"
+}
